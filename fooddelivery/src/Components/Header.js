@@ -25,8 +25,7 @@ function Header() {
         <div className="profileContainer">
             <div className="imgBox">
             <img 
-                src="https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fprofile.jpg?alt=media&token=36821495-39b9-4145-bde3-16c47c6ff937"
-                alt=""
+                src="" alt=""
             />
             </div>
         <h2 className="userName">Salma</h2>
