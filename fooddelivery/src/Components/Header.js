@@ -28,7 +28,7 @@ function Header() {
                 src="" alt=""
             />
             </div>
-        <h2 className="userName">Salma</h2>
+        <h2 className="userName">SalmaAAAAAA</h2>
         </div>
 
         <div className="toggleMenu">
