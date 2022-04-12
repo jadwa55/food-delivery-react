@@ -1,10 +1,12 @@
 import React from "react";
 
-function MenuContainer({link, icon}) {
+function MenuContainer({link, icon, isHome}) {
     return <li>
-        <a href="{link}">
-            <span className="icon">{icon}</span>
-        </a>
+        <li className={isHome ? "active" : ""}>
+            <a href={link}>
+                <span className="icon">{icon}</span>
+            </a>
+        </li>
     </li>
 }
 

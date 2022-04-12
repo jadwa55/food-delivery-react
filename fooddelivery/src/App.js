@@ -3,6 +3,8 @@ import './App.css';
 import { useEffect } from "react";
 import Header from "./Components/Header";
 import MenuContainer from "./Components/MenuContainer";
+import BannerName from './Components/BannerName';
+import SubMenuContainer from "./Components/SubMenuContainer";
 import {AccountBalanceWalletRounded,Chat,Favorite,HomeRounded,Settings,SummarizeRounded,} from "@mui/icons-material";
 
 function App() {
@@ -24,7 +26,24 @@ function App() {
       {/* Main Container */}
 
       <main>
-        <div className="mainContainer"></div>
+        <div className="mainContainer">
+          {/* Banner */}
+          <div className="banner">
+            <BannerName name={"Salma"} discount={"20"} link={"#"} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdelivery.png?alt=media&token=69b9823d-96df-452a-bd4e-14d27a4cc337"
+              alt="" 
+              className="deliveryPic"
+            />
+          </div>
+          {/* dishContainer*/}
+          <div className="dishContainer">
+            <div className="menuCard">
+              <SubMenuContainer name={"Menu Category"} />
+            </div>
+            <div className="rowContainer"></div>
+            <div className="dishitemContainer"></div>
+          </div>
+        </div>
         <div className="rightMenu"></div>
       </main> 
 
