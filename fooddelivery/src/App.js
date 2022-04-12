@@ -9,7 +9,6 @@ function App() {
 
   useEffect(() => {
     const menuLi = document.querySelectorAll("#menu li");
-
     function setMenuActive() {
       menuLi.forEach((n) => n.classList.remove("active"));
       this.classList.add("active");
