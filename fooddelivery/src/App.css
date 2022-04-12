@@ -236,27 +236,27 @@ header {
   box-shadow: 0px -10px 0 0 #faf9fb;
 } */
 
-.leftMenu ul li:nth-child(1).active ~ .indicator {
+.bottomMenu ul li:nth-child(1).active ~ .indicator {
   transform: translateX(calc(60px * 0));
 }
 
-.leftMenu ul li:nth-child(2).active ~ .indicator {
+.bottomMenu ul li:nth-child(2).active ~ .indicator {
   transform: translateX(calc(60px * 1));
 }
 
-.leftMenu ul li:nth-child(3).active ~ .indicator {
+.bottomMenu ul li:nth-child(3).active ~ .indicator {
   transform: translateX(calc(60px * 2));
 }
 
-.leftMenu ul li:nth-child(4).active ~ .indicator {
+.bottomMenu ul li:nth-child(4).active ~ .indicator {
   transform: translateX(calc(60px * 3));
 }
 
-.leftMenu ul li:nth-child(5).active ~ .indicator {
+.bottomMenu ul li:nth-child(5).active ~ .indicator {
   transform: translateX(calc(60px * 4));
 }
 
-.leftMenu ul li:nth-child(6).active ~ .indicator {
+.bottomMenu ul li:nth-child(6).active ~ .indicator {
   transform: translateX(calc(60px * 5));
 }
 /* Main Styles */
