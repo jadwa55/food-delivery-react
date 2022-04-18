@@ -6,6 +6,7 @@ import MenuContainer from "./Components/MenuContainer";
 import BannerName from './Components/BannerName';
 import SubMenuContainer from "./Components/SubMenuContainer";
 import {AccountBalanceWalletRounded,Chat,Favorite,HomeRounded,Settings,SummarizeRounded,} from "@mui/icons-material";
+import MenuCard from './Components/MenuCard';
 
 function App() {
 
@@ -40,7 +41,11 @@ function App() {
             <div className="menuCard">
               <SubMenuContainer name={"Menu Category"} />
             </div>
-            <div className="rowContainer"></div>
+            <div className="rowContainer">
+              <div>
+                <MenuCard imgSrc={""} name={"Pizza"} />
+              </div>
+            </div>
             <div className="dishitemContainer"></div>
           </div>
         </div>
